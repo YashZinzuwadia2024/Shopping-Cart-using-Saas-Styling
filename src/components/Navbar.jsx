@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import { CartState } from "../Context";
+import { CartState } from "../contexts/Context";
 import "./main.scss";
 
-const Header = () => {
+const Navbar = () => {
   const { cart } = CartState();
 
   return (
@@ -20,4 +20,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Navbar;
