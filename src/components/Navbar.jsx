@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { CartState } from "../Context";
-import "./styles.css";
+import "./main.scss";
 
 const Header = () => {
   const { cart } = CartState();
